@@ -1,6 +1,34 @@
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 10:121-141 */
+
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 11:504-524 */
+
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 12:312-332 */
+
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 13:15-35 */
+
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 16:248-268 */
+
+/*! CommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 19:56-76 */
+
+/*! CommonJS bailout: exports.unstable_shouldYield(...) prevents optimization as exports is passed as call context at 16:106-134 */
+
+/*! CommonJS bailout: module.exports is used directly at 103:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 12:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 16:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 18:2-16 */
+
 /*! CommonJS bailout: module.exports is used directly at 19:0-14 */
 
+/*! CommonJS bailout: module.exports is used directly at 1:0-14 */
+
 /*! CommonJS bailout: module.exports is used directly at 2:2-16 */
+
+/*! CommonJS bailout: module.exports is used directly at 65:0-14 */
+
+/*! CommonJS bailout: module.exports is used directly at 6:0-14 */
 
 /*! CommonJS bailout: module.exports is used directly at 7:0-14 */
 
@@ -584,21 +612,9 @@
 
 /*! unknown exports (runtime-defined) */
 
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
-
 /*!*******************************!*\
-  !*** ./src/components/App.js ***!
+  !*** ./frontend/src/index.js ***!
   \*******************************/
-
-/*!********************************!*\
-  !*** ./src/components/Room.js ***!
-  \********************************/
-
-/*!************************************!*\
-  !*** ./src/components/HomePage.js ***!
-  \************************************/
 
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
@@ -608,17 +624,17 @@
   !*** ./node_modules/isarray/index.js ***!
   \***************************************/
 
-/*!***************************************!*\
-  !*** ./src/components/MusicPlayer.js ***!
-  \***************************************/
+/*!****************************************!*\
+  !*** ./frontend/src/components/App.js ***!
+  \****************************************/
 
 /*!****************************************!*\
   !*** ./node_modules/react-is/index.js ***!
   \****************************************/
 
-/*!****************************************!*\
-  !*** ./src/components/RoomJoinPage.js ***!
-  \****************************************/
+/*!*****************************************!*\
+  !*** ./frontend/src/components/Room.js ***!
+  \*****************************************/
 
 /*!*****************************************!*\
   !*** ./node_modules/react-dom/index.js ***!
@@ -640,9 +656,9 @@
   !*** ./node_modules/prop-types/index.js ***!
   \******************************************/
 
-/*!******************************************!*\
-  !*** ./src/components/CreateRoomPage.js ***!
-  \******************************************/
+/*!*********************************************!*\
+  !*** ./frontend/src/components/HomePage.js ***!
+  \*********************************************/
 
 /*!*********************************************!*\
   !*** ./node_modules/history/esm/history.js ***!
@@ -656,9 +672,21 @@
   !*** ./node_modules/path-to-regexp/index.js ***!
   \**********************************************/
 
+/*!************************************************!*\
+  !*** ./frontend/src/components/MusicPlayer.js ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./frontend/src/components/RoomJoinPage.js ***!
+  \*************************************************/
+
 /*!**************************************************!*\
   !*** ./node_modules/@material-ui/icons/Pause.js ***!
   \**************************************************/
+
+/*!***************************************************!*\
+  !*** ./frontend/src/components/CreateRoomPage.js ***!
+  \***************************************************/
 
 /*!***************************************************!*\
   !*** ./node_modules/is-in-browser/dist/module.js ***!
